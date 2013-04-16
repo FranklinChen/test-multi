@@ -1,0 +1,6 @@
+@(message: String) // -*-scala-*-
+package com.franklinchen
+
+object Hello {
+  def result = "@message"
+}
