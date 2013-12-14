@@ -2,12 +2,13 @@ package com.franklinchen
 
 import org.specs2._
 
-class HelloSpec extends Specification {
-  def is =
-    "hello program is generated and compiles and runs" ! e1 ^
-  end
+class HelloSpec extends Specification { def is = s2"""
+  Hello
+    
+    hello program is generated and compiles and runs $e1
+  """
 
   def e1  = {
-    Hello.result must_== "hello world"
+    Hello.result === "hello world"
   }
 }

@@ -1,5 +1,7 @@
 # Use SBT to generate code that generates code
 
+[![Build Status](https://travis-ci.org/FranklinChen/test-multi.png)](https://travis-ci.org/FranklinChen/test-multi)
+
 This project illustrates how to generate Scala code that generates Scala code.
 
 ## Generator project
